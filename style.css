@@ -1,0 +1,73 @@
+*{
+    font-family: garamond,'Times New Roman', Times, serif;
+}
+.heading{
+    background: rgb(23, 156, 107);
+    background: linear-gradient(90deg, rgb(5, 72, 53) 0%, rgba(0,212,255,1) 100%);
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#profile-img{
+    width: 450px;
+    border: 5px solid rgb(9, 113, 68);
+    border-radius: 50%;
+    
+}
+@media (min-width:100) and (max-width:642){
+     #profile-img{
+        height: 250px;
+        width: 350px;
+     }   
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  img, svg {
+    vertical-align: middle;
+    width: 2em;
+    height: 1.5em;
+}
+#hanging-icons{
+    margin-bottom: 200px;
+}
+.projects{
+    position: relative;
+    bottom:250px;;
+}
+.logo-footer{
+    width: 50px;
+    height: 50px;
+}
+#Main-name{
+    font-family: garamond;
+    font-size: 50px;
+    color: rgb(176, 194, 204);
+    text-align: center;
+}
+@media (min-width:100px) and  (max-width:642){
+    #Main-name{
+       font-size:30px ;
+    }
+}
+
+#side-name{
+    font-family: garamond italic;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+@media (min-width:100px) and (max-width:642px){
+    #side-name{
+       font-size:18.5px ;
+    }
+}
+.main-footer{
+   padding: 3em;
+}
+
