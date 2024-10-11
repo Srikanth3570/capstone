@@ -67,6 +67,7 @@
 @media (min-width:100px) and  (max-width:642){
     #Main-name{
        font-size:30px ;
+       font-family: garamond,'Times New Roman', Times, serif;
     }
 }
 
@@ -80,6 +81,7 @@
 @media (min-width:100px) and (max-width:642px){
     #side-name{
        font-size:20px ;
+       font-family: garamond,'Times New Roman', Times, serif;
     }
 }
 .main-footer{
