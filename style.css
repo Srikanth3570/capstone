@@ -59,7 +59,7 @@
     height: 50px;
 }
 #Main-name{
-    font-family: garamond;
+    font-family: garamond,'Times New Roman', Times, serif;
     font-size: 50px;
     color: rgb(176, 194, 204);
     text-align: center;
@@ -72,7 +72,7 @@
 }
 
 #side-name{
-    font-family: garamond italic;
+    font-family: garamond,'Times New Roman', Times, serif;
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
@@ -80,7 +80,7 @@
 }
 @media (min-width:100px) and (max-width:642px){
     #side-name{
-       font-size:20px ;
+       font-size:25px ;
        font-family: garamond,'Times New Roman', Times, serif;
     }
 }
