@@ -2,8 +2,8 @@
     font-family: garamond,'Times New Roman', Times, serif;
 }
 .heading{
-    background: rgb(23, 156, 107);
-    background: linear-gradient(90deg, rgb(5, 72, 53) 0%, rgba(0,212,255,1) 100%);
+    background-color: #1d2226f0;
+    border-bottom: 3px  solid  #1d2226f0;
 }
 .text{
     display: flex;
@@ -17,6 +17,13 @@
     animation: imgg 2s ease-in-out infinite ;
     animation-delay: 2s;  
 }
+.about-me{
+        background-color: #1d2226f0;
+        color: white;
+    }
+h1,span{
+        color: rgb(197, 197, 64);
+    }
  @keyframes imgg {
         
         0%{
@@ -76,11 +83,12 @@
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
+    color: white;
 
 }
 @media (min-width:100px) and (max-width:642px){
     #side-name{
-       font-size:25px ;
+       font-size:30px ;
        font-family: garamond,'Times New Roman', Times, serif;
     }
 }
