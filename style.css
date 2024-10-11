@@ -12,18 +12,12 @@
 }
 #profile-img{
     width: 450px;
-    border: 5px solid rgb(9, 113, 68);
+    border: 5px solid rgb(197, 197, 64);
     border-radius: 50%;
     animation: imgg 2s ease-in-out infinite ;
     animation-delay: 2s;  
 }
-.about-me{
-        background-color: #1d2226f0;
-        color: white;
-    }
-h1,span{
-        color: rgb(197, 197, 64);
-    }
+
  @keyframes imgg {
         
         0%{
@@ -37,6 +31,13 @@ h1,span{
             transform:transLateY(0);
         }
         
+    }
+.about-me{
+        background-color: #1d2226f0;
+        color: white;
+    }
+h1,span{
+        color: rgb(197, 197, 64);
     }
 @media (min-width:100) and (max-width:642){
      #profile-img{
@@ -68,7 +69,7 @@ h1,span{
 #Main-name{
     font-family: garamond,'Times New Roman', Times, serif;
     font-size: 50px;
-    color: rgb(176, 194, 204);
+    color: white;
     text-align: center;
 }
 @media (min-width:100px) and  (max-width:642){
