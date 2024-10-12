@@ -68,7 +68,7 @@ h1,span{
 }
 #Main-name{
     font-family: garamond,'Times New Roman', Times, serif;
-    font-size: 33px;
+    font-size: 25px;
     color: white;
     text-align: center;
 }
@@ -81,7 +81,7 @@ h1,span{
 
 #side-name{
     font-family: garamond,'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     color: white;
